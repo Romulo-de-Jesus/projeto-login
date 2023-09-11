@@ -65,7 +65,7 @@ input[type=submit]{
     border: none;
     border-radius:5px;
     padding-top: 5px;
-    margin-top: 15px;
+    margin-top: 5px;
     height: 40px;
 }
 
@@ -94,10 +94,29 @@ cursor: pointer;
 }
 
 .campo{
-    background-color:  #5f2c82;
+
     width: 100%;
     display: block;
     height: 40px;
     border-radius: 5px;
     margin: 5px 0px;
+}
+i{
+    color: white;
+    font-size: 2em;
+    width: 40px;
+    padding: 5px;
+
+}
+.campo > input{
+    background-color: #b0f5f2;
+    font-size: 1em;
+    width: calc(100% - 44px);
+    height: 100%;
+    transform: translateY(-12px);
+    border: 0px;
+    border-radius: 8px;
+    padding: 4px;
+    margin: 4px;
+    border: #265352 1px solid;
 }
