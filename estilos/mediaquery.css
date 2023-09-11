@@ -5,6 +5,9 @@
         width: 90vw;
 
     }
+    p{
+        font-size: 1em;
+    }
     body{
         background-image: linear-gradient(to top, #49a09d, #5f2c82);
     }
@@ -22,6 +25,9 @@
 
 @media screen and (min-width: 992px){
 
+    p{
+        font-size: 1.2em;
+    }
     body{
         background-image: linear-gradient(to top, #49a09d, #5f2c82);
     }
@@ -29,13 +35,14 @@
         width: 990px;
     }
     #imagem{
-        float: left;
+        float: right;
         width: 50%;
         height: 100%;
     }
     #formulario{
-        float: right;
+        float: left;
         width: 50%;
     }
+
 }
 
